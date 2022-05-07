@@ -26,9 +26,9 @@ print("Your mission is to find the treasure.")
 cross_road = input('You are at a cross road. Where do you want to go? Type "left" or "right" ')
 
 if cross_road == "left":
- lake = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for boat. Type "swim" to swim across')
+ lake = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for boat. Type "swim" to swim across' )
  if lake == "wait":
-  color = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?')
+  color = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? ')
   if color == "yellow":
    print("You found the treasure! You win!")
   elif color == "blue":
